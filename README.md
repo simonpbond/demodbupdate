@@ -6,6 +6,7 @@ Demonstrates using Signalr to update data automatically in the Blazor client.
   
 ### Client Side
 There is currently no SignalR .NET Client available for Blazor WebAssembly, this will be ready in May 2020.  
+
 Because of this, we add the SignalR javascript library to the Client project using these instructions in the section named **Add the SignalR client library** [found here](https://docs.microsoft.com/en-us/aspnet/core/tutorials/signalr?tabs=visual-studio&view=aspnetcore-3.1).  
   
 Then in the client we add our own javascript file `notifications.js` which will start the signalr connection.  
