@@ -80,6 +80,27 @@ Then inside our WeatherForecast controller's `AddData()` method that saves data 
 
 `await _hubContext.Clients.All.SendAsync("datachanged");`
   
+The complete method:  
+```
+       [HttpGet("adddata")]
+        public async Task<IActionResult> AddData()
+        {
+            var rng = new Random();
+            var newData = Enumerable.Range(1, 5).Select(index => new WeatherForecast
+            {
+                Date = DateTime.Now.AddDays(index),
+                TemperatureC = rng.Next(-20, 55),
+                Summary = Summaries[rng.Next(Summaries.Length)]
+            });
+
+            MockDatabase.SaveToDatabase(newData);
+            await _hubContext.Clients.All.SendAsync("datachanged");
+
+            return Ok(string.Format("{0} - New data added to the server's database.", DateTime.Now.ToString()));
+        }
+```  
+  
+  
 Notice that we specify '`datachanged`' and this matches the message type we are listening for inside our `notifications.js` file in the Client.  
   
 This is a quick demonstration only and not meant to show the perfect architecture of a real world application. 
