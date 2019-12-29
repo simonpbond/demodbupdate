@@ -21,7 +21,7 @@ connection.on("datachanged", function () {
 The above code listen's for the "`datachanged`" message from the SignalR Server.  
 Whenever it receives this message, it will call a .NET Method named `DataChanged` in the `DemoDbUpdate.Client` assembly, [how this works can be found here](https://docs.microsoft.com/en-us/aspnet/core/blazor/javascript-interop?view=aspnetcore-3.1) under the heading **Invoke .NET methods from JavaScript functions**  
 
-The DataChanged method is located inside a class we have made named `InteropMethods.cs`. This is the method that the javascript function is calling. The code inside this method is as follows:
+The DataChanged method is located inside a class we have made named `InteropMethods.cs`. This is the .NET method that the javascript function calls. The code inside this method is as follows:
 ```
         public static Action OnDataChanged;
 
