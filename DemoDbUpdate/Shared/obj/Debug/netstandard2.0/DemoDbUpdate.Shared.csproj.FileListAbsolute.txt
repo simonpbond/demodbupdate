@@ -1,8 +1,0 @@
-C:\Users\Simon Bond\source\repos\DemoDbUpdate\DemoDbUpdate\Shared\bin\Debug\netstandard2.0\DemoDbUpdate.Shared.deps.json
-C:\Users\Simon Bond\source\repos\DemoDbUpdate\DemoDbUpdate\Shared\bin\Debug\netstandard2.0\DemoDbUpdate.Shared.dll
-C:\Users\Simon Bond\source\repos\DemoDbUpdate\DemoDbUpdate\Shared\bin\Debug\netstandard2.0\DemoDbUpdate.Shared.pdb
-C:\Users\Simon Bond\source\repos\DemoDbUpdate\DemoDbUpdate\Shared\obj\Debug\netstandard2.0\DemoDbUpdate.Shared.csprojAssemblyReference.cache
-C:\Users\Simon Bond\source\repos\DemoDbUpdate\DemoDbUpdate\Shared\obj\Debug\netstandard2.0\DemoDbUpdate.Shared.AssemblyInfoInputs.cache
-C:\Users\Simon Bond\source\repos\DemoDbUpdate\DemoDbUpdate\Shared\obj\Debug\netstandard2.0\DemoDbUpdate.Shared.AssemblyInfo.cs
-C:\Users\Simon Bond\source\repos\DemoDbUpdate\DemoDbUpdate\Shared\obj\Debug\netstandard2.0\DemoDbUpdate.Shared.dll
-C:\Users\Simon Bond\source\repos\DemoDbUpdate\DemoDbUpdate\Shared\obj\Debug\netstandard2.0\DemoDbUpdate.Shared.pdb
