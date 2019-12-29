@@ -103,6 +103,8 @@ The complete method:
   
 Notice that we specify '`datachanged`' and this matches the message type we are listening for inside our `notifications.js` file in the Client side.  
   
+> To test the project, click on `FetchData` in the menu and click the button **Add new data into the server's database**  
+  
 This is a quick demonstration only and not meant to show the perfect architecture of a real world application. 
  
 
