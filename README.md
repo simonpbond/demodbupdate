@@ -101,7 +101,7 @@ The complete method:
 ```  
   
   
-Notice that we specify '`datachanged`' and this matches the message type we are listening for inside our `notifications.js` file in the Client.  
+Notice that we specify '`datachanged`' and this matches the message type we are listening for inside our `notifications.js` file in the Client side.  
   
 This is a quick demonstration only and not meant to show the perfect architecture of a real world application. 
  
